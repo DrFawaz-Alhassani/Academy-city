@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<link rel="stylesheet" href="style/log-sig.css">
+<link rel="stylesheet" href="style/bootstrap@5.2.0.min.css">
+<body class="body">
+  
+  
+ <section class="text-center" id="sec">
+    <div class="box">
+      <form>
+        <h2 id="h2">Login Form</h2>
+        <div class="col-4">
+          <img src="img/user.svg">
+        </div>
+        <div class="col-8">
+             <div class="btn-group" >
+          <div >
+          <button class="btn btn-outline-warning" id="mode" onclick="xx()">ليلي</button>
+        </div>
+          <div>
+          <button class="btn btn-outline-warning" id="lang" onclick="zz()">عربية</button>
+        </div>
+        </div>
+        </div>
+        <div>
+          <input id="emi" type="email" required>
+          <label id="s">Email</label>
+        </div>
+        <div>
+          <input id="password" type="password" required>
+          <label id="ss">password</label>
+        </div> 
+        
+        
+        <!--Begin - input Repassword Code-->
+        <div class="inputbox">
+          <input id="pas" type="password" required>
+          <label id="ss2">Repassword</label>
+        </div> 
+        <div class="inputbox">
+          <input id="code" type="text" required>
+          <label id="ss1">Code</label>
+        </div> 
+        <!--End-->
+        <div id="inputbox" >
+          <button id="lolo" class="btn btn-outline-warning" onclick="loginform()">Login </button>
+        </div>
+        <p id="fo1">do you forget password ?! </p>
+        <a onclick="getpass()" id="fo" href="#">Forget password </a>
+        
+                <p id="cr1">do you have account ?! </p>
+        <a id="cr" href="#">Create a account</a>
+        
+      </form>
+
+
+    </div>
+
+  </section>
+        <span>Dr-Fawaz-Alhassani </span>
+  <!--اشعار-->
+  <div id="navigation">
+    <img src="../img/na.png" alt="nab">
+    <h3 id="h3">اشعارات الأمان</h3>
+    <p id="p">
+      
+    </p>
+  </div>
+  <!--اشعار-->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/log-sig.js"></script>
+</body>
+
+</html>

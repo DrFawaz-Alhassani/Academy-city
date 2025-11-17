@@ -1,0 +1,148 @@
+body{
+  background: #FFCE6C;
+}
+
+.navbar{
+  background:#CF931A;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top:0px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  border: none;
+  transition: 3s;
+}
+.navbar button{
+  position: absolute;
+  right: 2px;
+}
+.navbar img{
+  
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.navbarmove{
+  transition: all .6s;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top:0px;
+}
+.navbarmove h3{
+position: absolute;
+  top:3px;
+}
+.navbarmove button:hover{
+  transition: all 3s;
+  position: absolute;
+  top:10px;
+  right: 2px;
+  background: #26B9AB;
+  transform: rotate(-90deg);
+}
+.navbarmove .ulli ul{
+  display: flex;
+  margin-top: 40px;
+  font-size: 14px;
+  display: block;
+}
+.navbar span{
+  margin-left: 1px;
+  color: #16B970;
+}
+
+.fotor{
+  background: #AA7D22;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.fotor ul{
+  display: flex;
+  list-style-type: none;
+  font-size: 12px;
+}
+.fotor ul li{
+  margin: 10px;
+  align-items: center;
+}
+.fotor ul li a{
+  align-self: left;
+  text-decoration: none;
+  color: gold;
+}
+
+.fotor ul li img{
+  display: flex;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  right:10px;
+  left: 15px;
+  margin-bottom: 5px;
+}
+.ulli ul{
+  display: flex;
+  margin-top: 20px;
+  font-size: 14px;
+  display: none;
+}
+.ulli ul li{
+  list-style-type: none;
+  margin: 5px;
+  padding: 2px;
+}
+.ulli ul li a{
+  color: #FFB206;
+  text-decoration: none;
+}
+
+
+.sec{
+  background: transparent;
+  color: #123;
+  width: 130px;
+  height: 130px;
+  font-size: 10px;
+  position: relative;
+  top: 55px;
+  z-index: -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 7px;
+}
+.sec div{
+  border: none;
+  border-radius: 17px;
+  background: #916B1F;
+  width: 120px;
+  height: 130px;
+  padding: 0px;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.sec .div:hover{
+  transition: all 0.5s;
+  color: #fff;
+  background: #123;
+}
+.sec div h2{
+  font-size: 10px;
+  color: #e1e1e1;
+}
+.sec img{
+  width: 100px;
+  height: 80px;
+}
