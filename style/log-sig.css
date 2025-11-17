@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url('../img/pexels-fernando-silva-2157007356-34485968.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed ;
+}
+.box{
+  width: 400px;
+  height: 540px;
+  background: #1B1B208F;
+  position: fixed;
+  opacity: 0.7;
+  top:70px;
+  border: solid 2px gold;
+  border-radius: 12px;
+  left: 10px;
+
+}
+#h2{
+  background: #C49236;
+  border-radius:12px 12px 0px 0px ;
+  height: 49px;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+label{
+  color: #fff;
+  position: relative;
+  margin: 8px;
+  right: 120px;
+  transform: translateY(-50px);
+  
+}
+input{
+  text-shadow: 5px 5px 6px #C81F1F;
+  padding: 5px;
+  margin: 20px;
+  border: none;
+  width: 370px ;
+  background: transparent;
+  border-bottom: green solid 1px ;
+  text-align: center;
+  outline-color: #35C6FF;
+  color: #fff;
+}
+input:focus~#s{
+  color: gold;
+  bottom: 27px;
+  
+}
+input:focus~#ss{
+  color: gold;
+transition:.5s;
+  bottom: 27px;
+}
+input:focus~#ss1{
+  color: gold;
+transition:.5s;
+  bottom: 27px;
+}
+input:focus~#ss2{
+  color: gold;
+transition:.5s;
+  bottom: 27px;
+}
+button{
+  color: #fff;
+}
+p,a{
+  color:#fff;
+}
+
+.btn-group{
+  position: absolute;
+  top: -10px;
+  left: 40px;
+}
+img{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  right: 140px;
+}
+
+
+.dark{
+  background-image: url('../img/../img/2e05e73b4824e9b9dffdaefeb60fe7d6 (1).jpg');
+  
+}
+.dark .box{
+color: #fff;
+opacity: 1;
+
+}
+.dark input{
+  color:#fff;
+  text-align: center;
+}
+
+
+.inputbox{
+  
+  display: none;
+  opacity: 1;
+  transition: opacity 3s;
+}
+
+.show{
+  transition: height 3s;
+  color: #fff;
+height: 680px;
+}
+span{
+  position: absolute;
+  background: #123;
+  bottom: 2px;
+  width: 100%;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+#navigation{
+            display:block; /* اجعل العرض على `block` لتمكين التحولات */
+            width: 190px;
+            height: 90px;
+            background: #003C78;
+            color: #e1e1e1;
+            border: solid 1px #286422;
+            border-radius: 17px;
+            position: absolute;
+            top: 120px; /* ابدأ من موضع خارج الشاشة */
+            right: 120px;
+            font-size: 12px;
+            opacity: 0; /* اجعله غير مرئي في البداية */
+            transition: top 3s, opacity 3s; /* تأثيرات الانتقال */
+        }
+        
+#navigation h3{
+  font-size: 14px;
+  color: #20DD0F;
+}
+#navigation img{
+  width: 35px;
+  height: 30px;
+  position: absolute;
+  right: 140px;
+  top: 10px;
+}
